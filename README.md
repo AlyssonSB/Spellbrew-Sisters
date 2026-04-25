@@ -1,2 +1,3 @@
-# Spellbrew-Sisters
-Duas irmãs bruxas herdam Spellbrew, a lendária loja de poções do avô, famosa por suas impecáveis cinco estrelas. Agora, sob pressão constante, elas precisam dominar a arte da Spellbrew, cumprir pedidos perfeitos e manter viva a reputação que tornou o nome uma lenda.
+version https://git-lfs.github.com/spec/v1
+oid sha256:491c37f45b50daff8da73e92a9c3a390c99612a63d1f383d65cb3c691c4db655
+size 298

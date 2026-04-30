@@ -14,20 +14,17 @@ public class InteractionUI : MonoBehaviour
 
     [Header("Botões do caldeirão")]
     public GameObject mixButton;
+    public GameObject dropButton;
 
-    [Header("Botões de poderes")]
-    public GameObject[] elementalsButton;
-    public GameObject[] temporalsButton;
+    /*[Header("Botões de poderes")]
+    public GameObject elementalButton;
+    public GameObject temporalButton;
+    private bool elemental = true;
+    private bool temporal = false;*/
 
     [Header("Teclas dos Botões")]
     public GameObject[] buttonsKeys;
-     
 
-
-
-
-    private bool elemental = true;
-    private bool temporal = false;
     void Awake()
     {
         Instance = this;
@@ -66,7 +63,7 @@ public class InteractionUI : MonoBehaviour
 
                 interactText.text = current + "/" + max;
                 // cor dinâmica
-                interactText.color = Color.Lerp(Color.red, Color.white, (float)current / max);
+                // interactText.color = Color.Lerp(Color.red, Color.white, (float)current / max);
             }
         }
     }
@@ -74,12 +71,6 @@ public class InteractionUI : MonoBehaviour
     {
         interactButton.SetActive(false);
         mixButton.SetActive(false);
-
-        for (int i = 0; i < elementalsButton.Length; i++)
-        {
-            elementalsButton[i].SetActive(false);
-            temporalsButton[i].SetActive(false);
-        }
     }
     void UpdateCauldronButtons(PlayerInteraction player, Cauldron c)
     {
@@ -87,12 +78,6 @@ public class InteractionUI : MonoBehaviour
 
         if (c.HasIngredients())
             mixButton.SetActive(true);
-
-        for (int i = 0; i < elementalsButton.Length; i++)
-        {
-            elementalsButton[i].SetActive(elemental);
-            temporalsButton[i].SetActive(temporal);
-        }
-
     }
+
 }

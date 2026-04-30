@@ -21,7 +21,7 @@ public class DeliveryZone : Interactable
             return;
         }
 
-        bool success = OrderManager.Instance.TryCompleteOrder(jar.potionData);
+        /*bool success = OrderManager.Instance.TryCompleteOrder(jar.potionData);
         if (success)
         {
             Debug.Log("Entrega correta!");
@@ -30,7 +30,7 @@ public class DeliveryZone : Interactable
         {
             Debug.Log("Entrega errada!");
             // opcional: penalidade
-        }
+        }*/
 
         Destroy(player.heldItem);
         player.heldItem = null;

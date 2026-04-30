@@ -2,9 +2,8 @@
 
 public abstract class Interactable : MonoBehaviour
 {
-    public Renderer rend;
+    public GameObject interactZone;
     public Sprite interactionSprite;
-    Color originalColor;
 
     public virtual bool CanInteract(PlayerInteraction player)
     {
@@ -13,14 +12,13 @@ public abstract class Interactable : MonoBehaviour
     public abstract void Interact(PlayerInteraction player);
     void Start()
     {
-        if (rend != null)
-            originalColor = rend.material.color;
+        interactZone.SetActive(false);
     }
 
     public void Highlight(bool state)
     {
-        if (rend == null) return;
+        if (interactZone == null) return;
 
-        rend.material.color = state ? Color.yellow : originalColor;
+        interactZone.SetActive(state);
     }
 }

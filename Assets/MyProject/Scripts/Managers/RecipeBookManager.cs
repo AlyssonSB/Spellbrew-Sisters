@@ -27,10 +27,10 @@ using UnityEngine;
         private void Update()
         {
             if (Input.GetKeyDown(KeyCode.J))  
-                ShowBook();
+                ToggleShowBook();
         }
 
-        public void ShowBook()
+        public void ToggleShowBook()
         {
             if (recipeBookUI.activeSelf)
                 recipeBookUI.SetActive(false);

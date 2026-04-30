@@ -4,21 +4,22 @@ public class PlayerInteraction : MonoBehaviour
 {
     public Transform handPoint;
     public GameObject heldItem;
-    public Animator animator;
+   // public Animator animator;
     private Interactable bestInteractable;
     private void Start()
     {
-        animator = GetComponent<Animator>();
+       // animator = GetComponent<Animator>();
 
     }
     void Update()
     {
         InteractionUI.Instance.UpdateUI(this, bestInteractable);
+        InteractionUI.Instance.dropButton.SetActive(heldItem != null);
 
-        if (heldItem != null)
-            animator.SetBool("Hold", true);
-        else
-            animator.SetBool("Hold", false);
+        /* if (heldItem != null)
+             animator.SetBool("Hold", true);
+         else
+             animator.SetBool("Hold", false);*/
 
         HighlightCurrent();
 
@@ -58,6 +59,9 @@ public class PlayerInteraction : MonoBehaviour
         heldItem.GetComponent<Ingredient>()?.StartDecay();
 
         heldItem = null;
+        bestInteractable = null;
+
+
     }
 
     public void PickItem(GameObject item)
@@ -76,6 +80,8 @@ public class PlayerInteraction : MonoBehaviour
         if (col != null) col.enabled = false;
 
         item.GetComponent<Ingredient>()?.StopDecay();
+
+        bestInteractable = null;
     }
 
     private void OnTriggerStay(Collider other)

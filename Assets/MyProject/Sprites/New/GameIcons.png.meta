@@ -1,0 +1,505 @@
+fileFormatVersion: 2
+guid: fe1b116dc00985e498ef5a2a9f4512c9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Scroll
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 3121
+        width: 736
+        height: 975
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a4d01ed4b4a574ea760874220f2e88
+      internalID: 1626565797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 3371
+        width: 2746
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cefa02bfb031940b56ca7348e59234
+      internalID: -1332852826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interact
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2046
+        width: 1001
+        height: 997
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cb161eed3331941ba7539f08967447
+      internalID: 65678148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drop
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 2089
+        width: 744
+        height: 947
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee3b1bdcd871614c952b7813a2e9ebb
+      internalID: -872977202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIcons_13
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 2086
+        width: 971
+        height: 937
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33317f793b1dacd40a1d5e8475a7e543
+      internalID: -400234445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Delivery
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 2142
+        width: 935
+        height: 861
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d20fa84d0b4f454496d1dd952bf3c7c
+      internalID: -735467695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1030
+        width: 948
+        height: 997
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f1be5c2ea0941429930c043d2a9e40
+      internalID: 599401810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottle
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1047
+        width: 754
+        height: 982
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed56a67c419b5204682f080004278ba5
+      internalID: 668008956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mix
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 1042
+        width: 908
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842d90330d64c994d9298a573a7fa3b0
+      internalID: -12019998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1053
+        width: 812
+        height: 958
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce6026aadd6bcc4baf7487ba235f765
+      internalID: -1083423200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1027
+        height: 1027
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08543494e60fadc4395c9e1ed3cc0cfe
+      internalID: 1156038524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Money
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 0
+        width: 1027
+        height: 1027
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfef210304027142896f566b98db4a6
+      internalID: -1721001515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settings
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 39
+        width: 923
+        height: 978
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75bc98316fe6da49a96acd90a118757
+      internalID: 2112541478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temporal
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 0
+        width: 1027
+        height: 1027
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41900b70c8a82f948822bf143424c560
+      internalID: 1203373219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bottle: 668008956
+      Button: 1156038524
+      Delivery: -735467695
+      Drop: -872977202
+      Elemental: 599401810
+      Fire: -1083423200
+      GameIcons_11: -914924226
+      GameIcons_12: 1921673940
+      GameIcons_13: -400234445
+      GameIcons_14: -1725705093
+      GameIcons_15: -680567325
+      GameIcons_16: -1600748386
+      GameIcons_17: 58001621
+      GameIcons_18: -1341522823
+      GameIcons_2: 368034121
+      GameIcons_20: 821963376
+      GameIcons_21: -2041240851
+      GameIcons_22: -877391950
+      GameIcons_23: 830471699
+      GameIcons_24: 1628622491
+      GameIcons_25: -882786758
+      GameIcons_26: -1837679487
+      GameIcons_27: 699499911
+      GameIcons_29: -846982763
+      GameIcons_3: -86608298
+      GameIcons_30: 1513673506
+      GameIcons_32: 1096451147
+      GameIcons_33: -276762961
+      GameIcons_35: 1491732883
+      GameIcons_36: -638651628
+      GameIcons_37: 1377565097
+      GameIcons_39: -155957602
+      GameIcons_4: -2020879181
+      GameIcons_41: 931467164
+      GameIcons_42: -171109591
+      GameIcons_43: -1581555969
+      GameIcons_44: 1753689111
+      GameIcons_45: -1168593621
+      GameIcons_46: -550796314
+      GameIcons_47: 1084853863
+      GameIcons_48: 1357262625
+      GameIcons_49: -1925302341
+      GameIcons_5: -1996966829
+      GameIcons_50: 838867021
+      GameIcons_51: 241506168
+      GameIcons_52: 1559027
+      GameIcons_53: -1117901398
+      GameIcons_54: -1794275380
+      GameIcons_55: -1862971078
+      GameIcons_56: 898498092
+      GameIcons_57: 2127151033
+      GameIcons_58: -1309077104
+      GameIcons_59: -1427494157
+      GameIcons_6: -110565871
+      GameIcons_60: 462771021
+      GameIcons_61: 1038207147
+      GameIcons_62: 630225123
+      GameIcons_63: 2106845137
+      GameIcons_64: -1365031676
+      GameIcons_65: 351512756
+      GameIcons_66: -781969842
+      GameIcons_68: 1777560058
+      GameIcons_7: -1729795219
+      GameIcons_9: -2125741220
+      Interact: 65678148
+      Mix: -12019998
+      Money: -1721001515
+      Scroll: 1626565797
+      Settings: 2112541478
+      Stars: -1332852826
+      Temporal: 1203373219
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
